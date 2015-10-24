@@ -11,4 +11,5 @@ app.config(["$routeProvider", function($routeProvider) {
             templateUrl: "app/templates/details_template.html",
             controller: "DetailsController"
         })
+        .otherwise("/people") //if you do some weird URL, give this page as a default
 }]);
