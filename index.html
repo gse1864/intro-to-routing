@@ -1,7 +1,12 @@
-<html>
-	<body>
-	something
+<html ng-app="app">
+    <p>before the ng view</p>
+    
+    <div ng-view>
+    <!--route templates will replace this-->    
+    </div>
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="https://code.angularjs.org/1.4.3/angular-route.js"></script>
 		<script src="app/app.js"></script>
 		<script src="app/ListController.js"></script>
 		<script src="app/DataService.js"></script>
